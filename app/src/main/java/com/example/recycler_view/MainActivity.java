@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         mrecyclerView.setLayoutManager(layoutManager);
         adapter = new Adapter(userList);
         mrecyclerView.setAdapter(adapter);
-        adapter.notifyDataSetChanged();
+        adapter.notifyAll();
     }
 
 
